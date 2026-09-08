@@ -10,10 +10,11 @@ public class Dog {
         System.out.println("BARK BARK");
     }
 
-    public Dog(){
-        name = "Borlat";
-        age = 5;
-        breed = "Aspin";
+    public Dog(String name, String breed, int age){
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+
     }
 
 
