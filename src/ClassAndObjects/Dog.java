@@ -1,13 +1,21 @@
 package ClassAndObjects;
 
 public class Dog {
-    //ATTRIBUTES
-    String breed;
+
     String name;
+    String breed;
     int age;
 
     public void bark(){
-        System.out.println("BARK BARK!");
+        System.out.println("BARK BARK");
     }
+
+    public Dog(){
+        name = "Borlat";
+        age = 5;
+        breed = "Aspin";
+    }
+
+
 
 }
