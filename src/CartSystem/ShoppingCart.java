@@ -28,6 +28,14 @@ public class ShoppingCart {
             totalPrice += itemPrice;
 
     }
+
+    public void removeItem(double itemPrice){
+        itemsCount--;
+        totalPrice -= itemPrice;
+        System.out.println("Removed item worth: "+itemPrice);
+
+    }
+
     public void removeAllItems(){
         System.out.println("Resetting Items...");
         itemsCount = 0;

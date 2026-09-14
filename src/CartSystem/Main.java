@@ -12,10 +12,17 @@ public class Main {
         System.out.println("You currently have "+ cart.getItemsCount() +" items in your Cart");
         System.out.println("Total Price : " + cart.getTotalPrice());
 
-        cart.removeAllItems();
 
-        System.out.println("Items are now "+ cart.getItemsCount());
-        System.out.println("Total price is now "+ cart.getTotalPrice());
+        cart.removeItem(700);
+        cart.removeItem(1000);
+
+        System.out.println("Removed one item. Current Item Count: " +cart.getItemsCount());
+        System.out.println(cart.getTotalPrice());
+
+
+//        cart.removeAllItems();
+//        System.out.println("Items are now "+ cart.getItemsCount());
+//        System.out.println("Total price is now "+ cart.getTotalPrice());
 
 
     }
