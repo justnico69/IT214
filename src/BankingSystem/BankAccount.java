@@ -38,7 +38,7 @@ public class BankAccount {
         System.out.println("Amount withdrawn: "+amount);
 
     }
-
+    
     public void setAccountName(String accountName){
         this.accountName = accountName;
     }
