@@ -1,24 +1,25 @@
-package DogEncapsul;
+package DogEncapsulation;
 
 public class Dog {
     private String breed;
     private String name;
-    private String gender;
     private int age;
-
 
     //Setter
     public void setName(String name){
         this.name = name;
     }
+
     public void setAge(int age){
+        if(age > 30){
+            System.out.println("Invalid age!");
+            return;
+        }
         this.age = age;
     }
+
     public void setBreed(String breed){
         this.breed = breed;
-    }
-    public void setGender(String gender){
-        this.gender = gender;
     }
 
     //Getter
@@ -27,9 +28,6 @@ public class Dog {
     }
     public String getBreed(){
         return breed;
-    }
-    public String getGender(){
-        return gender;
     }
     public int getAge(){
         return age;
