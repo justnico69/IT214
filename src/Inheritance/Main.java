@@ -11,5 +11,9 @@ public class Main {
         myDog.eat();
         System.out.println(chick.name = "My Chicken's name is Coco");
 
+        myDog.makeNoise();
+        cat.makeNoise();
+        chick.makeNoise();
+
     }
 }

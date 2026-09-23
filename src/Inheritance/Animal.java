@@ -11,5 +11,9 @@ public class Animal {
         System.out.println("nom nom");
     }
 
+    void makeNoise(){
+        System.out.println("Wah wahh wahh");
+    }
+
 
 }
