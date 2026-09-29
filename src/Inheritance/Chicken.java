@@ -1,9 +1,7 @@
 package Inheritance;
 
-public class Chicken extends Animal {
+public class Chicken {
 
-    @Override
-    void makeNoise() {
-        System.out.println("Cluck cluck");
-    }
+
+
 }

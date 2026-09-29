@@ -2,18 +2,11 @@ package Inheritance;
 
 public class Animal {
 
-    //Attributes of an Animal
     String name;
+    int age;
     String gender;
 
-    //Method
-    void eat(){
-        System.out.println("nom nom");
-    }
-
     void makeNoise(){
-        System.out.println("Wah wahh wahh");
+        System.out.println("GRAH GRAH ");
     }
-
-
 }
