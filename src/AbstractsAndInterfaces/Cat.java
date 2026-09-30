@@ -1,4 +1,4 @@
-package Abstracts;
+package AbstractsAndInterfaces;
 
 class Cat extends Animal {
     @Override
